@@ -1,0 +1,13 @@
+1) create django project name (school_bootcamp)
+ => django-admin startproject school_bootcamp
+ 2) create app inside project folder (django-admin startapp python_django)
+ 3) defined app in main project inside settings file (installed_app)
+ 4) than defined urls in main urls 
+ (path("",include("python_django.urls")))
+ 5) create new file file name urls.py inside python_django app
+ 6) defined path inside urls.py python_django 
+   add all import inside python_django urls.py file 
+      from django.urls import path
+      from . import views
+
+7) open views.py file and create index func
