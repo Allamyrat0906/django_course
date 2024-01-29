@@ -1,0 +1,10 @@
+1)create project name =>> (example)
+2)create app  name = >> (homework)
+3) defined app to main project
+4)defined urls main project 
+5)create urls file in homework app 
+6)defined url path 
+7) create  function inside views file 
+8) cretate index html 
+9) defined text inside index html
+10) run project 

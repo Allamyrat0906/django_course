@@ -6,11 +6,9 @@
     <title>Month</title>
   </head>
   <body>
-    {% comment %} {{tasks}} {% endcomment %}
-
     <ul>
-      {% for i in list_m%}
-      <li>{{i}}</li>
+      {% for i in all_month%}
+      <li>{{i.capitalize}}</li>
       {%endfor%}
     </ul>
   </body>
