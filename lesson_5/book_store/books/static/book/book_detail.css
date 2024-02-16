@@ -1,0 +1,20 @@
+/* Style the main heading */
+h1 {
+  font-size: 24px; /* Adjust the font size */
+  color: #0c026b; /* Set text color */
+  margin-bottom: 20px; /* Adjust spacing */
+}
+
+/* Style the secondary headings */
+h2 {
+  font-size: 18px; /* Adjust the font size */
+  color: #ff0000; /* Set text color */
+  margin-top: 20px; /* Adjust spacing */
+}
+
+/* Style the paragraphs */
+p {
+  font-size: 16px; /* Adjust the font size */
+  color: #444; /* Set text color */
+  margin-bottom: 10px; /* Adjust spacing */
+}

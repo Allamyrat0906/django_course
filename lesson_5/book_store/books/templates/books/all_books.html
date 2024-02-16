@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+<!---->
+{% load static %}
+<!---->
+{%block title %} All Books {%endblock%}
+<!---->
+{% block css_file %}
+<!---->
+<link rel="stylesheet" href="{% static 'book/all_book.css' %}" /> {% endblock %}
+<!---->
+{% block content%}
+
+<ul>
+  {% for book in books%}
+  <li>
+    <h2><a href="{% url 'book-detail' id=book.id %}">{{ book }}</a></h2>
+  </li>
+
+  {%endfor%}
+</ul>
+
+{% endblock %}

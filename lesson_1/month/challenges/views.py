@@ -7,6 +7,12 @@ from django.shortcuts import render
 # def index(request):
 #     return HttpResponse("this is first request")
 
+lists = [1, 2, 3, 4, 5]
+
 
 def showtemplates(request):
-    return render(request, "challenges/challenge.html")
+
+    return render(request, "challenges/challenge.html",
+                  {
+                      "lists": lists
+                  })

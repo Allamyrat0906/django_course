@@ -1,4 +1,4 @@
-from django.http import HttpResponseNotFound, HttpResponse, HttpResponseRedirect
+from django.http import HttpResponseNotFound, HttpResponse
 from django.shortcuts import render
 from django.urls import reverse
 

@@ -1,0 +1,13 @@
+1) create new project name library
+2)create app name =>> books
+3) default setting 
+4) create  3 urls dynamic
+5) create 3 function 
+    func_1 =>  get all books 
+    funcs_2 =>  specific function (author , page , year,selling  ) by number 
+    func_3 => with string 
+6) default html configruation 
+7) advanced html
+8 ) static files (css )
+9) testing 
+10)finish

@@ -1,0 +1,34 @@
+{%extends "base.html" %}
+<!---->
+{% load static %}
+<!---->
+{% block title %}Book detail{%endblock%}
+<!---->
+{% block css_file %}
+<!----><link rel="stylesheet" href="{% static "book/book_detail.css" %}"/>
+<!---->
+{% endblock %}
+<!---->
+{% block content %}
+
+<h1>{{book_detail.title}}</h1>
+
+<h2>Subject:</h2>
+<p>{{book_detail.subject}}</p>
+<h2>Author:</h2>
+<p>{{book_detail.author}}</p>
+
+<h2>Year:</h2>
+<p>{{book_detail.year}}</p>
+<h2>Format:</h2>
+<p>{{book_detail.format}}</p>
+<h2>Pages:</h2>
+<p>{{book_detail.pages}}</p>
+
+<img style="border-radius: 50%; width: 400px; height: 400px" src="{{ book_detail.author.images.url }}"/>
+
+<button>
+  <a href="{% url "all-books" %}"> ALL Books</a>
+</button>
+
+{% endblock%}
