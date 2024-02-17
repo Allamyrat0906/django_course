@@ -1,0 +1,13 @@
+{% extends "base.html"%}
+<!---->
+{% block title %} {%endblock%}
+<!---->{%block body %}
+<!---->{% for profile in profiles%}
+
+<ul>
+  <img style="height: 200px; width: 200px" src="{{ profile.image.url}}" />
+</ul>
+
+{% endfor %}
+<!---->
+{% endblock%}
