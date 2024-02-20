@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+<!---->{% block title %}Users{% endblock%}
+<!---->{% block context %}
+
+<h1>Welcome {{request.user}}</h1>
+
+<h3><a href="/logout">Logout</h3>
+<h3><a href="{% url 'logout'%}">Logout</h3>
+
+{% endblock%}
